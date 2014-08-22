@@ -6,8 +6,8 @@ The goal is to have mappings similar to `bash` emacs mode.
 You can read more about this idea in vim's docs
 [:h tcsh-style](http://vimdoc.sourceforge.net/htmldoc/cmdline.html#tcsh-style).
 
-Plugin killer feature are `M-f` and `M-b` CLI mappings that move one "word"
-right or left (notice the lowercase "word").
+Plugin killer feature are convenient `M-f` and `M-b` CLI mappings that move one
+"word" right or left (notice the lowercase "word").
 
 This is an enhancement from vanilla vim that enables only "WORD" (uppercase)
 left or right with<br/>
