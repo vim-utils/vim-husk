@@ -1,0 +1,50 @@
+*husk.txt*	Mappings that boost vim command line mode.
+
+Author: Bruno Sutic <https://www.github.com/bruno->
+
+INTRODUCTION					*husk*
+
+Mappings that boost vim command line mode. The goal is to have mappings
+similar to bash emacs mode. You can read more about this idea in |tcsh-style|.
+
+Plugin killer feature are <M-f> and <M-b> CLI mappings that move one "word"
+right or left (notice the lowercase "word"). This is an enhancement from
+vanilla vim that enables only "WORD" (uppercase) left or right with
+|c_<S-Left>| and |<S-Right>|.
+
+MAPS						*husk-maps*
+
+All mappings are defined only in vim's command line mode.
+
+						*husk-CTRL-A*
+<C-a>		Cursor to beginning of command line, same as |c_CTRL-B|.
+
+						*husk-CTRL-F*
+<C-f>		Cursor right, same as |c_<Right>|.
+
+						*husk-CTRL-B*
+<C-b>		cursor left, same as |c_<Left>|.
+
+						*husk-META-F*
+<M-f>		Cursor one "word" right. Command line equivalent of |w| for
+		normal mode.
+
+						*husk-META-B*
+<M-b>		Cursor one "word" left. Command line equivalent of |b| for
+		normal mode.
+
+CONTRIBUTING					*husk-contributing*
+
+Contributing is welcome. Github repo:
+
+  https://github.com/bruno-/vim-husk
+
+CHANGELOG					*husk-changelog*
+
+v0.0.1: August 22, 2014		* Initial working version
+
+LICENSE						*husk-license*
+
+Copyright (c) Bruno Sutic. Distributed under the MIT license.
+
+ vim:tw=78:ts=8:ft=help:norl:
