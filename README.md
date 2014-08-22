@@ -33,9 +33,16 @@ All mappings work **only** in vim command line mode.
 
 ### About
 
-This plugin grew out from Tim Pope's [vim-rsi](https://github.com/tpope/vim-rsi).
-`vim-rsi` has a bit broader focus and does not provide proper `M-f` and `M-b`
-mappings.
+`vim-husk` grew out from Tim Pope's [vim-rsi](https://github.com/tpope/vim-rsi)
+plugin.
+
+Differences:
+
+- `vim-husk` has proper `M-f` and `M-b` mapping implementation
+- with `vim-husk` there's no risk of breaking vim's macros. Link to related
+  [vim-rsi issue](https://github.com/tpope/vim-rsi/issues/13).
+- `vim-rsi` has a broader scope and provides `insert` and `normal` mode
+  mappings while `vim-husk` focuses only on vim's CLI.
 
 ### Licence
 
