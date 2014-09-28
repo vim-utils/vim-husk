@@ -32,7 +32,7 @@ function! husk#left()
   return repeat("\<Left>", pos - next)
 endfunction
 
-function! husk#right()
+function! husk#abstract_right(command)
   let line = getcmdline()
   let pos = getcmdpos()
   let next = 1
@@ -41,7 +41,15 @@ function! husk#right()
     let next = match(line, '\<\S\|\>\S\|\s\zs\S\|^\|$', 0, i) + 1
     let i += 1
   endwhile
-  return repeat("\<Right>", next - pos)
+  return repeat(a:command, next - pos)
+endfunction
+
+function! husk#right()
+  return husk#abstract_right("\<Right>")
+endfunction
+
+function! husk#del_word()
+  return husk#abstract_right("\<Right>\<BS>")
 endfunction
 
 cnoremap <C-a> <Home>
@@ -50,11 +58,14 @@ cnoremap <C-f> <Right>
 cnoremap <expr> <C-d> getcmdpos()>strlen(getcmdline())?"\<Lt>C-d>":"\<Lt>Del>"
 
 if has("gui_running")
+  cnoremap <expr> <M-d> husk#del_word()
   cnoremap <expr> <M-b> husk#left()
   cnoremap <expr> <M-f> husk#right()
 else
+  silent! exe "set <F31>=\<Esc>d"
   silent! exe "set <F36>=\<Esc>b"
   silent! exe "set <F37>=\<Esc>f"
+  cnoremap <expr> <F31> husk#del_word()
   cnoremap <expr> <F36> husk#left()
   cnoremap <expr> <F37> husk#right()
 endif

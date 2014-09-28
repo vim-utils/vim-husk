@@ -25,6 +25,7 @@ All mappings work **only** in vim command line mode.
   at the end of the line
 - `M-f` (Alt-f) go one "word" right
 - `M-b` (Alt-b) go one "word" left
+- `M-d` (Alt-d) delete "word" after the cursor
 
 ### Installation
 
