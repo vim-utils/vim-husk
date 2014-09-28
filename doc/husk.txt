@@ -26,7 +26,7 @@ All mappings are defined only in vim's command line mode.
 <C-b>		Cursor left, same as |c_<Left>|.
 
 						*husk-CTRL-D*
-<C-d>		Delete character in front of the cursor. Falls back to
+<C-d>		Delete character after the cursor. Falls back to
 		|c_CTRL-D| at the end of the line.
 		This mapping is copied directly from 'tpope/vim-rsi'
 
