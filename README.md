@@ -20,6 +20,9 @@ All mappings work **only** in vim command line mode.
 - `C-a` go to the beginning of the line
 - `C-f` go one character right
 - `C-b` go one character left
+- `C-d` delete character or fall back to
+  [c_CTRL-D](http://vimdoc.sourceforge.net/htmldoc/cmdline.html#c_CTRL-D)
+  at the end of the line
 - `M-f` (Alt-f) go one "word" right
 - `M-b` (Alt-b) go one "word" left
 
@@ -34,7 +37,7 @@ All mappings work **only** in vim command line mode.
 ### About
 
 `vim-husk` grew out from Tim Pope's [vim-rsi](https://github.com/tpope/vim-rsi)
-plugin.
+plugin. `C-d` mapping is directly copied.
 
 Differences:
 

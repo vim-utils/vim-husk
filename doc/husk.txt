@@ -23,7 +23,12 @@ All mappings are defined only in vim's command line mode.
 <C-f>		Cursor right, same as |c_<Right>|.
 
 						*husk-CTRL-B*
-<C-b>		cursor left, same as |c_<Left>|.
+<C-b>		Cursor left, same as |c_<Left>|.
+
+						*husk-CTRL-D*
+<C-d>		Delete character in front of the cursor. Falls back to
+		|c_CTRL-D| at the end of the line.
+		This mapping is copied directly from 'tpope/vim-rsi'
 
 						*husk-META-F*
 <M-f>		Cursor one "word" right. Command line equivalent of |w| for
@@ -41,7 +46,8 @@ Contributing is welcome. Github repo:
 
 CHANGELOG					*husk-changelog*
 
-v0.0.1: August 22, 2014		* Initial working version
+v0.0.2: Sep 29, 2014		* Add 'C-d' mapping
+v0.0.1: Aug 22, 2014		* Initial working version
 
 LICENSE						*husk-license*
 
