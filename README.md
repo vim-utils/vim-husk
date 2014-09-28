@@ -42,7 +42,7 @@ plugin. `C-d` mapping is directly copied.
 
 Differences:
 
-- `vim-husk` has proper `M-f` and `M-b` mapping implementation
+- `vim-husk` has proper `M-f`, `M-b` and `M-d`  mapping implementation
 - with `vim-husk` there's no risk of breaking vim's macros. Link to related
   [vim-rsi issue](https://github.com/tpope/vim-rsi/issues/13).
 - `vim-rsi` has a broader scope and provides `insert` and `normal` mode
