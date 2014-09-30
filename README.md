@@ -26,6 +26,8 @@ All mappings work **only** in vim command line mode.
 - `M-f` (Alt-f) go one "word" right
 - `M-b` (Alt-b) go one "word" left
 - `M-d` (Alt-d) delete "word" after the cursor
+- `M-BS` (Alt-Backspace) delete "word" before the cursor, same as
+  [c_CTRL-W](http://vimdoc.sourceforge.net/htmldoc/cmdline.html#c_CTRL-W)
 
 ### Installation
 
@@ -38,7 +40,7 @@ All mappings work **only** in vim command line mode.
 ### About
 
 `vim-husk` grew out from Tim Pope's [vim-rsi](https://github.com/tpope/vim-rsi)
-plugin. `C-d` mapping is directly copied.
+plugin. `C-d` and `M-BS` mappings are directly copied.
 
 Differences:
 

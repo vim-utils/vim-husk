@@ -42,6 +42,9 @@ All mappings are defined only in vim's command line mode.
 <M-d>		Delete "word" after the cursor. Command line equivalent of
 		'dw' for normal mode.
 
+						*husk-META-BS*
+<M-BS>		Delete "word" before the cursor. Same as |c_CTRL-W|.
+
 CONTRIBUTING					*husk-contributing*
 
 Contributing is welcome. Github repo:
@@ -50,6 +53,7 @@ Contributing is welcome. Github repo:
 
 CHANGELOG					*husk-changelog*
 
+v0.2.0: Oct 01, 2014		* Add 'M-BS' mapping
 v0.1.0: Sep 29, 2014		* Add 'M-d' mapping
 v0.0.2: Sep 29, 2014		* Add 'C-d' mapping
 v0.0.1: Aug 22, 2014		* Initial working version
