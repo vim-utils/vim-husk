@@ -18,7 +18,9 @@ left or right with<br/>
 All mappings work **only** in vim command line mode.
 
 - `C-a` go to the beginning of the line
-- `C-f` go one character right
+- `C-f` go one character right or fall back to
+  [c_CTRL-F](http://vimdoc.sourceforge.net/htmldoc/cmdline.html#c_CTRL-F)
+  at the end of the line
 - `C-b` go one character left
 - `C-d` delete character or fall back to
   [c_CTRL-D](http://vimdoc.sourceforge.net/htmldoc/cmdline.html#c_CTRL-D)
