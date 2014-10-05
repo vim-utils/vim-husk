@@ -20,12 +20,12 @@ All mappings are defined only in vim's command line mode.
 <C-a>		Cursor to beginning of command line, same as |c_CTRL-B|.
 
 						*husk-CTRL-F*
-<C-f>		Cursor right, same as |c_<Right>|.
-
-						*husk-CTRL-B*
-<C-b>		Cursor left, same as |c_<Left>|. Falls back to
+<C-f>		Cursor right, same as |c_<Right>|. Falls back to
 		|c_CTRL-F| at the end of the line.
 		This mapping is copied directly from 'tpope/vim-rsi'
+
+						*husk-CTRL-B*
+<C-b>		Cursor left, same as |c_<Left>|.
 
 						*husk-CTRL-D*
 <C-d>		Delete character after the cursor. Falls back to
