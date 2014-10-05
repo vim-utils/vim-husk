@@ -54,7 +54,7 @@ endfunction
 
 cnoremap <C-a> <Home>
 cnoremap <C-b> <Left>
-cnoremap <C-f> <Right>
+cnoremap <expr> <C-f> getcmdpos()>strlen(getcmdline())?&cedit:"\<Lt>Right>"
 cnoremap <expr> <C-d> getcmdpos()>strlen(getcmdline())?"\<Lt>C-d>":"\<Lt>Del>"
 
 if has("gui_running")
