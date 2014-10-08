@@ -42,7 +42,7 @@ All mappings work **only** in vim command line mode.
 ### About
 
 `vim-husk` grew out from Tim Pope's [vim-rsi](https://github.com/tpope/vim-rsi)
-plugin. `C-d` and `M-BS` mappings are directly copied.
+plugin. `C-f`, `C-d` and `M-BS` mappings are directly copied.
 
 Differences:
 

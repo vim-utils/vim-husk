@@ -22,7 +22,6 @@ All mappings are defined only in vim's command line mode.
 						*husk-CTRL-F*
 <C-f>		Cursor right, same as |c_<Right>|. Falls back to
 		|c_CTRL-F| at the end of the line.
-		This mapping is copied directly from 'tpope/vim-rsi'
 
 						*husk-CTRL-B*
 <C-b>		Cursor left, same as |c_<Left>|.
@@ -30,7 +29,6 @@ All mappings are defined only in vim's command line mode.
 						*husk-CTRL-D*
 <C-d>		Delete character after the cursor. Falls back to
 		|c_CTRL-D| at the end of the line.
-		This mapping is copied directly from 'tpope/vim-rsi'
 
 						*husk-META-F*
 <M-f>		Cursor one "word" right. Command line equivalent of |w| for
