@@ -53,6 +53,7 @@ Contributing is welcome. Github repo:
 
 CHANGELOG					*husk-changelog*
 
+v0.3.0: Oct 08, 2014		* Add 'C-f` mapping
 v0.2.0: Oct 01, 2014		* Add 'M-BS' mapping
 v0.1.0: Sep 29, 2014		* Add 'M-d' mapping
 v0.0.2: Sep 29, 2014		* Add 'C-d' mapping
