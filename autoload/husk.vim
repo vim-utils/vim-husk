@@ -31,3 +31,9 @@ endfunction
 function! husk#del_word()
   return husk#abstract_right("\<Right>\<BS>")
 endfunction
+
+function! husk#clear_line_after_cursor()
+  let pos = getcmdpos()
+  let line_len = strlen(getcmdline())
+  return repeat("\<Del>", line_len - pos + 1)
+endfunction

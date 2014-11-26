@@ -23,6 +23,10 @@ cnoremap <expr> <C-f> getcmdpos()>strlen(getcmdline())?&cedit:"\<Lt>Right>"
 cnoremap <expr> <C-d> getcmdpos()>strlen(getcmdline())?"\<Lt>C-d>":"\<Lt>Del>"
 cnoremap <C-x><C-e> <C-f>
 
+if get(g:, 'husk_ctrl_k', 1)
+  cnoremap <expr> <C-k> husk#clear_line_after_cursor()
+endif
+
 if has("gui_running")
   cnoremap <expr> <M-d> husk#del_word()
   cnoremap <expr> <M-b> husk#left()

@@ -25,6 +25,9 @@ All mappings work **only** in vim command line mode.
 - `C-d` delete character or fall back to
   [c_CTRL-D](http://vimdoc.sourceforge.net/htmldoc/cmdline.html#c_CTRL-D)
   at the end of the line
+- `C-k` clear line after the cursor, overrides
+  [c_CTRL-K](http://vimdoc.sourceforge.net/htmldoc/cmdline.html#c_CTRL-K)
+  (if you're using `C-k` for digraphs check the docs how to disable)
 - `C-x C-e` open the command-line window, same as
   [c_CTRL-f](http://vimdoc.sourceforge.net/htmldoc/cmdline.html#c_CTRL-F)
 - `M-f` (Alt-f) go one "word" right

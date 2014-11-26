@@ -30,6 +30,11 @@ All mappings are defined only in vim's command line mode.
 <C-d>		Delete character after the cursor. Falls back to
 		|c_CTRL-D| at the end of the line.
 
+						*husk-CTRL-K*
+<C-k>		Clear line after the cursor.
+		If you're using |c_CTRL-K| you can disable this mapping
+		with 'let g:husk_ctrl_k = 0'.
+
 						*husk-CTRL-X_CTRL-E*
 <C-x><C-e>	Open the command-line window, same as |c_CTRL-f|.
 
