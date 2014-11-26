@@ -45,6 +45,12 @@ All mappings are defined only in vim's command line mode.
 						*husk-META-BS*
 <M-BS>		Delete "word" before the cursor. Same as |c_CTRL-W|.
 
+						*husk-META-#*
+<M-#>		Insert comment at the beginning and execute the line.
+		This is different than just discarding the line, because
+		commented line stays in the command-line history and can
+		later be retrieved.
+
 CONTRIBUTING					*husk-contributing*
 
 Contributing is welcome. Github repo:

@@ -27,17 +27,20 @@ if has("gui_running")
   cnoremap <expr> <M-b> husk#left()
   cnoremap <expr> <M-f> husk#right()
   cnoremap <M-BS> <C-w>
+  cnoremap <expr> <M-#> "\<Home>\"\<CR>"
 else
   silent! exe "set <F30>=\<Esc>d"
   silent! exe "set <F31>=\<Esc>\<C-?>"
   silent! exe "set <F32>=\<Esc>\<C-h>"
   silent! exe "set <F33>=\<Esc>b"
   silent! exe "set <F34>=\<Esc>f"
+  silent! exe "set <F35>=\<Esc>#"
   cnoremap <expr> <F30> husk#del_word()
   cnoremap <F31> <C-w>
   cnoremap <F32> <C-w>
   cnoremap <expr> <F33> husk#left()
   cnoremap <expr> <F34> husk#right()
+  cnoremap <expr> <F35> "\<Home>\"\<CR>"
 endif
 
 let &cpo = s:save_cpo

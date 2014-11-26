@@ -30,6 +30,9 @@ All mappings work **only** in vim command line mode.
 - `M-d` (Alt-d) delete "word" after the cursor
 - `M-BS` (Alt-Backspace) delete "word" before the cursor, same as
   [c_CTRL-W](http://vimdoc.sourceforge.net/htmldoc/cmdline.html#c_CTRL-W)
+- `M-#` (Alt-shift-3) insert comment at the beginning of the line and execute
+  it. Useful for discarding the line, but still keeping it in the command-line
+  history for later retrieval.
 
 ### Installation
 
