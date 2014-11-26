@@ -62,6 +62,7 @@ Contributing is welcome. Github repo:
 
 CHANGELOG					*husk-changelog*
 
+v0.5.0: Nov 26, 2014		* Add 'M-#' and 'C-x C-e' mappings
 v0.4.0: Nov 24, 2014		* Autoload functions
 v0.3.0: Oct 08, 2014		* Add 'C-f` mapping
 v0.2.0: Oct 01, 2014		* Add 'M-BS' mapping
