@@ -21,6 +21,7 @@ cnoremap <C-a> <Home>
 cnoremap <C-b> <Left>
 cnoremap <expr> <C-f> getcmdpos()>strlen(getcmdline())?&cedit:"\<Lt>Right>"
 cnoremap <expr> <C-d> getcmdpos()>strlen(getcmdline())?"\<Lt>C-d>":"\<Lt>Del>"
+cnoremap <C-x><C-e> <C-f>
 
 if has("gui_running")
   cnoremap <expr> <M-d> husk#del_word()

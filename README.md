@@ -25,6 +25,8 @@ All mappings work **only** in vim command line mode.
 - `C-d` delete character or fall back to
   [c_CTRL-D](http://vimdoc.sourceforge.net/htmldoc/cmdline.html#c_CTRL-D)
   at the end of the line
+- `C-x C-e` open the command-line window, same as
+  [c_CTRL-f](http://vimdoc.sourceforge.net/htmldoc/cmdline.html#c_CTRL-F)
 - `M-f` (Alt-f) go one "word" right
 - `M-b` (Alt-b) go one "word" left
 - `M-d` (Alt-d) delete "word" after the cursor
