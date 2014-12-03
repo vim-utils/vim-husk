@@ -47,6 +47,10 @@ All mappings work **only** in vim command line mode.
 * Pathogen<br/>
 `git clone git://github.com/bruno-/vim-husk.git ~/.vim/bundle/vim-husk`
 
+*Note*: In order to enable alt mappings (`M-f`, `M-b` etc) Mac OS users using
+Terminal.app may need to go to Preferences > Profiles > Keyboard and tick
+"Use Option as Meta key".
+
 ### About
 
 `vim-husk` grew out from Tim Pope's [vim-rsi](https://github.com/tpope/vim-rsi)
