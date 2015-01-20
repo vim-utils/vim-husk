@@ -40,6 +40,15 @@ else
   silent! exe "set <F33>=\<Esc>b"
   silent! exe "set <F34>=\<Esc>f"
   silent! exe "set <F35>=\<Esc>#"
+
+  " insert mode mappings that prevent errors in macros, see issue #4
+  inoremap <F30> <Esc>d
+  inoremap <F31> <Esc><C-?>
+  inoremap <F32> <Esc><C-h>
+  inoremap <F33> <Esc>b
+  inoremap <F34> <Esc>f
+  inoremap <F35> <Esc>#
+
   cnoremap <expr> <F30> husk#del_word()
   cnoremap <F31> <C-w>
   cnoremap <F32> <C-w>
