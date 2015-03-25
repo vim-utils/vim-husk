@@ -27,7 +27,7 @@ if get(g:, 'husk_ctrl_k', 1)
   cnoremap <expr> <C-k> husk#clear_line_after_cursor()
 endif
 
-if has("gui_running")
+if has('gui_running') || has('nvim')
   cnoremap <expr> <M-d> husk#del_word()
   cnoremap <expr> <M-b> husk#left()
   cnoremap <expr> <M-f> husk#right()

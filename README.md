@@ -13,6 +13,8 @@ This is an enhancement from vanilla vim that enables only "WORD" (uppercase)
 left or right with<br/>
 `<S-Left>` and `<S-Right>`.
 
+Works in NeoVim too.
+
 ### Mappings
 
 All mappings work **only** in vim command line mode.
@@ -43,6 +45,9 @@ All mappings work **only** in vim command line mode.
 
 * Vundle<br/>
 `Plugin 'bruno-/vim-husk'`
+
+* vim-plug<br/>
+`Plug 'bruno-/vim-husk'`
 
 * Pathogen<br/>
 `git clone git://github.com/bruno-/vim-husk.git ~/.vim/bundle/vim-husk`
