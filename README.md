@@ -44,13 +44,13 @@ All mappings work **only** in vim command line mode.
 ### Installation
 
 * Vundle<br/>
-`Plugin 'bruno-/vim-husk'`
+`Plugin 'vim-utils/vim-husk'`
 
 * vim-plug<br/>
-`Plug 'bruno-/vim-husk'`
+`Plug 'vim-utils/vim-husk'`
 
 * Pathogen<br/>
-`git clone git://github.com/bruno-/vim-husk.git ~/.vim/bundle/vim-husk`
+`git clone git://github.com/vim-utils/vim-husk.git ~/.vim/bundle/vim-husk`
 
 *Note*: In order to enable alt mappings (`M-f`, `M-b` etc) Mac OS users using
 Terminal.app may need to go to Preferences > Profiles > Keyboard and tick

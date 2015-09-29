@@ -1,7 +1,7 @@
 " ============================================================================
 " File: husk.vim
 " Author: Bruno Sutic
-" WebPage: https://github.com/bruno-/vim-husk
+" WebPage: https://github.com/vim-utils/vim-husk
 " ============================================================================
 
 if exists('g:loaded_husk') && g:loaded_husk
