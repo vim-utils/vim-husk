@@ -23,6 +23,8 @@ function! s:enable_husk()
   cnoremap <expr> <C-f> getcmdpos()>strlen(getcmdline())?&cedit:"\<Lt>Right>"
   cnoremap <expr> <C-d> getcmdpos()>strlen(getcmdline())?"\<Lt>C-d>":"\<Lt>Del>"
   cnoremap <C-x><C-e> <C-f>
+  cnoremap <c-n> <down>
+  cnoremap <c-p> <up>
 
   if get(g:, 'husk_ctrl_k', 1)
     cnoremap <expr> <C-k> husk#clear_line_after_cursor()
