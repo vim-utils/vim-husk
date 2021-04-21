@@ -19,6 +19,8 @@ Works in NeoVim too.
 
 All mappings work **only** in vim command line mode.
 
+- `C-p` find the previous history command with the same prefix
+- `C-n` find the next history command with the same prefix
 - `C-a` go to the beginning of the line
 - `C-f` go one character right or fall back to
   [c_CTRL-F](http://vimdoc.sourceforge.net/htmldoc/cmdline.html#c_CTRL-F)
